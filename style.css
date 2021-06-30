@@ -1,0 +1,47 @@
+
+            h1 {
+                color: brown;
+            }
+/* 
+            * {
+                border: solid;
+            } */
+.header{
+    background-color: rgb(231, 159, 50);
+    display: flex;
+    justify-content: space-between;
+    border:solid black 2px
+}
+  .grade{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }  
+  .footer{
+      display:flex;
+      justify-content: flex-end;
+  }  
+  p,h2{
+      text-align: center;
+
+  }
+  .item{
+      border: solid chocolate;
+  }
+  body{
+      background:linear-gradient(200deg,#eb4034,#e0d910,#10e01a,#1c8dc9,#be5ce6,#e65c81);
+      background-size: 100% 100%;
+      animation: gradient 2s infinite ease-in;
+  }
+  @keyframes gradient {
+      0%
+      {background-position:0% 50%
+
+      }
+      50%{
+        background-position:50% 50%
+      }
+      100%{
+        background-position:0% 50%
+      }
+  }
